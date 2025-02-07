@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <style>
+        /* CSS เพื่อทำให้รูปภาพเต็มหน้าจอ */
+        body, html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; /* ป้องกันการเลื่อนเพจ */
+        }
+
+        .full-screen-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* ปรับขนาดรูปภาพให้เต็มพื้นที่ */
+            cursor: pointer; /* เปลี่ยนรูป cursor เป็น pointer เมื่อเม้าส์วางอยู่บนรูปภาพ */
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+        <!-- <video controls width="100%" height="auto"  controls loop="true">
+            <source src="img\Subb." type="video/mp4">
+            
+        </video> -->
+        <img src="img\Subbro.gif" alt="Girl in a jacket" width="100%" height="auto">
+    <!-- <img  class="full-screen-image" src="img\SubbroPJ.png" alt="Your Image"> -->
+    </a>
+
+    <!-- หรือหากต้องการใช้ปุ่มแทน -->
+    <!-- <button id="nextButton">Go to Next Page</button> -->
+    
+    <!-- หรือหากต้องการเรียกใช้ฟังก์ชัน JavaScript เมื่อคลิก -->
+    <!-- <button id="nextButton" onclick="goToNextPage()">Go to Next Page</button> -->
+
+    <!-- หรือหากต้องการใช้ลิงก์และฟังก์ชัน JavaScript เมื่อคลิก -->
+    <!-- <a href="#" id="nextButton" onclick="goToNextPage()">Go to Next Page</a> -->
+
+    <!-- และสามารถเพิ่มฟังก์ชัน JavaScript เพื่อทำการเปลี่ยนทางไปยังหน้าถัดไป -->
+    <!-- <script>
+        function goToNextPage() {
+            window.location.href = 'page2.html';
+        }
+    </script> -->
+    
+</body>
+</html>
